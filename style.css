@@ -1,0 +1,43 @@
+.form{
+    background-color: yellow;
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+    box-shadow: 10px 10px 20px black;
+   
+}
+h3{
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px white;
+}
+.div{
+    text-align: center;
+    width: 500px;
+    margin: auto 0;
+   
+    
+}
+.di{
+    position: relative;
+    left: 500px;
+    top: 200px;
+}
+.in{
+    border-radius: 5px;
+    padding: 7px;
+    border-color: brown;
+    box-shadow: 3px 3px 10px black;
+}
+.int{
+    border-radius: 5px 15px;
+}
+input[type="password"]{
+    color: brown;
+}
+.in:hover{
+    background-color: blue;
+    color: white;
+}
