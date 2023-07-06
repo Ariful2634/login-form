@@ -1,11 +1,11 @@
 .form{
-    background-color: yellow;
+    background-color: transparent;
     width: 200px;
     height: 250px;
     padding: 10px;
     border-radius: 15px;
     margin: 5px;
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 0px 0px 20px black;
    
 }
 h3{
@@ -24,20 +24,55 @@ h3{
     position: relative;
     left: 500px;
     top: 200px;
+    width: 38vh;
+    background-image: url("water.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position: center;
+    border-radius: 15px;
 }
 .in{
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     padding: 7px;
     border-color: brown;
-    box-shadow: 3px 3px 10px black;
+   /* box-shadow: 3px 3px 10px black;*/
+    
+    
 }
 .int{
     border-radius: 5px 15px;
+    background: transparent;
 }
 input[type="password"]{
     color: brown;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    
+}
+input[type="email"]{
+    color: brown;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+input[type="text"]{
+    color: brown;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
 }
 .in:hover{
-    background-color: blue;
-    color: white;
+    background-color: transparent;
+    color: black;
+}
+input::placeholder{
+    color: black;
 }
